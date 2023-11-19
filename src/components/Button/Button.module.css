@@ -1,0 +1,25 @@
+.button {
+	border-radius: 6px;
+	padding: 8px 30px;
+	font-family: inherit;
+	cursor: pointer;
+	transition: background 0.25s;
+	font-size: 16px;
+	border: none;
+	color: #FFFFFF;
+	width: fit-content;
+}
+.button:nth-child(2) {
+	margin-left: 20px;
+	background: rgba(189, 28, 28, 1);
+}
+
+.accent:nth-child(1):hover {
+	background: #222096;
+}
+.accent:nth-child(2):hover {
+	background: rgba(189, 28, 28, .65);
+}
+.accent {
+	background: #312EB5;
+}
